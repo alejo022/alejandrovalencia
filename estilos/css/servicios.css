@@ -1,8 +1,13 @@
 
+
+
+
+
 .servicios {
     width: 100%;
     height: auto;
     margin: auto;
+    padding: 3%;
    
 }
  
@@ -25,7 +30,7 @@
   .contenedor h4:after{
     content: '';
     display: block; 
-    width: 100%;
+    width: 50%;
     height: 3px;
     margin: 20px auto;
     border: 0;
@@ -56,4 +61,16 @@ section .caja-servicios {
 .contenedor-cta{padding: 20px;
                 text-align: center;}
 
-  .tamañ-imgServicio{ height: 400px;}
+.img-servicio {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+
+.boton-enlace {
+  margin: 2%;
+  /* border-top: solid; */
+  text-align: center;
+}

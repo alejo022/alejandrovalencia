@@ -1,0 +1,16 @@
+
+
+.content-barra-segundaria {
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    color: #eee;
+}
+

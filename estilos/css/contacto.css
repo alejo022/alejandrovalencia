@@ -23,7 +23,7 @@
 .footer h4:after{
   content: '';
   display: block; 
-  width: 100%;
+  width: 60%;
   height: 3px;
   margin: 20px auto;
   border: 0;
