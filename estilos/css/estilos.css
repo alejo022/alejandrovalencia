@@ -10,6 +10,17 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+
+
+
+/*Estilos Generales*/
+
+.texto-centrar {
+  text-align: center;
+}
+
+
+
 /*PARA PONER FOTO DE FONDO Y MENU SOBRE EL  */
 
 .contecInicio{

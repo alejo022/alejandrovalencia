@@ -30,8 +30,8 @@
 
   <body>
     
-    <section class="contecInicio" id="inicio" >
-      <div class="nav" id="sticker">
+    <section class="contecInicio">
+      <div class="nav">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,8 +39,8 @@
           <a class="navbar-brand" href="index.html">ALEJANDRO VALENCIA</a>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                  <a class="nav-link" href="sobrenos.html"><i class="far fa-user"></i> sobre mi  <span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                  <a class="nav-link" href="sobrenos.html"><i class="far fa-user"></i> sobre mi </a>
               </li>
 
               <li class="nav-item">
@@ -73,18 +73,22 @@
     </section>
 
     
-    <section class="portafolio" id="sobremi">
+    <section class="container">
       
-      <div class="container">
-        <h4 data-ix="skype">¡BIENVENIDO!, SOY ALEJANDRO  </h4>
-        <p data-ix="container" style="text-align: center;">
+      <div class="main-publico">
+        <h1 class="texto-centrar">¡BIENVENIDO!</h1>
+      </div>
+      <div class="main-publico">
+        <p class="texto-centrar">
           Soy un desarrollador de software freelancer que me actualizo sobre nuevas tendencias para fortalecer mis conocimientos técnicos,
           con experiencia en el desarrollo web. </br><br>
           Mis principales tecnologías de desarrollo son HTML5, CSS3, Javascript , PHP , PYTHON , entre otras. 
           Me encanta estudiar y aprender continuamente, me gusta asumir nuevos desafíos y buscar soluciones. 
         </p>
+  
       </div>
-
+      
+      
       <!-- Swiper -->
       <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -107,34 +111,39 @@
       <div class="tituLo">
         <ul class="flex-outer">
           <li class="centrar-boto">
-            <a type="submit" class="btn btn-outline-info" href="sobrenos.html">CONOCEME MÁS</a>
+            <a type="submit" class="boton" href="sobrenos.html">Ver más</a>
           </li>
         </ul>
       </div>
   
     </section>
     
-    <section class="servicios" id="servicios">
+    <section class="servicios">
       <div class="contenedor">
-        <h4>SERVICIOS</h4>
-        <span class="linea-abajo"></span>
+
+        <div class="main-publico">
+          <h1 class="texto-centrar">Nuestros Servicios</h1>
+        </div>
+
+        
+        
         <div class="row">
 
-          <div class="col-sm-4 centro">
-            <img src="estilos/img/servicio.jpg" alt="logo-python" class="img-servicio tamañ-imgServicio"/>
+          <div class="col-xs-12 col-sm-6 col-md-4 centro">
+            <img src="estilos/img/servicio.jpg" alt="logo-python" class="img-servicio"/>
             <h4>Desarrollo de Software a la medida</h4>
             <p>Creación y desarrollo de sitios web para tu marca personal y empresa, con las tecnologías
             adecuadas.</p>
           </div>
 
-          <div class="col-sm-4 centro">
+          <div class="col-xs-12 col-sm-6 col-md-4 centro">
             <img src="estilos/img/servicio.jpg" alt="logo-python" class="img-servicio" />
             <h4>Diseño web</h4>
             <p>Todos las páginas web son adaptables a dispositivos móviles, por lo que todas las personas
               podrán verla en el dispositivo que deseen</p>
           </div>
 
-          <div class="col-sm-4 centro">
+          <div class="col-xs-12 col-sm-12 col-md-4 centro">
             <img src="estilos/img/servicio.jpg" alt="logo-python" class="img-servicio" />
             <h4>Camaras de seguridad CCTV</h4>
             <p>Lista para llegar a tu segmento de mercado ideal, con las nuevas tendencias de desarrollo.</p>
@@ -142,79 +151,72 @@
 
         </div> 
 
-        <div class="boton-enlace">
-          <a type="submit" class="btn btn-outline-info" href="sobrenos.html">CONOCEME MÁS</a>
+      
+        <div class="tituLo">
+          <ul class="flex-outer">
+            <li class="centrar-boto">
+              <a type="submit" class="boton" href="sobrenos.html">Ver más</a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section class="portafolio" id="portafolio">
-      </br>
+    <section class="portafolio">
+    
+      
       <h4>PORTAFOLIO</h4>
 
-
-
-
-
-      
-  
-    <div class="main-publico" >
-      <div class="albunes">
-        <ul class="list-albunes">
-          <li>
-            <a href="http://s1.cetiia.co/" target="_blank">
-              <!-- <a href="./commercekickstart/" target="_blank"> -->
-              <div class="container-albun portafolio-item">
-                  <!-- image_tag("nmn.jpg", :alt => "PORTADA ALBÚN", :class => 'image') %>-->
-                  <img src="estilos/img/portada.png" alt="img SIWGPA" class="portafolio-img" />
-                  <div class="info-albun">
-                    <h2 class="nombre-albun">SIWGPA</h2>
-                  </div>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="http://s2.cetiia.co/" target="_blank">
-              <!-- <a href="./juanproject/" target="_blank"> -->
-              <div class="container-albun portafolio-item">
-                  <!-- image_tag("nmn.jpg", :alt => "PORTADA ALBÚN", :class => 'image') %>-->
-                  <img src="estilos/img/02.PNG" alt="img Camaras Seguridad" class="portafolio-img" />
-                  <div class="info-albun">
-                    <h3 class="nombre-albun">CAMARAS SEGURIDAD</h3>
-                  </div>
-              </div>
-            </a>
-          </li>        
-          <li>
-            <a href="http://s3.cetiia.co/" target="_blank">
-              <!-- <a href="./alejo/" target="_blank"> -->
-              <div class="container-albun portafolio-item">
-                  <!-- image_tag("nmn.jpg", :alt => "PORTADA ALBÚN", :class => 'image') %>-->
-                  <img src="estilos/img/fitnes.png" alt="img Mundo Fitness" class="portafolio-img" />
-                  <div class="info-albun">
-                      <h2 class="nombre-albun">MUNDO FITNESS</h2>
-                  </div>
-              </div>
-            </a>
-          </li>
-        </ul>
+      <div class="main-publico" >
+        <div class="albunes">
+          <ul class="list-albunes">
+            <li>
+              <a href="http://s1.cetiia.co/" target="_blank">
+                <!-- <a href="./commercekickstart/" target="_blank"> -->
+                <div class="container-albun portafolio-item">
+                    <!-- image_tag("nmn.jpg", :alt => "PORTADA ALBÚN", :class => 'image') %>-->
+                    <img src="estilos/img/portada.png" alt="img SIWGPA" class="portafolio-img" />
+                    <div class="info-albun">
+                      <h2 class="nombre-albun">SIWGPA</h2>
+                    </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="http://s2.cetiia.co/" target="_blank">
+                <!-- <a href="./juanproject/" target="_blank"> -->
+                <div class="container-albun portafolio-item">
+                    <!-- image_tag("nmn.jpg", :alt => "PORTADA ALBÚN", :class => 'image') %>-->
+                    <img src="estilos/img/02.PNG" alt="img Camaras Seguridad" class="portafolio-img" />
+                    <div class="info-albun">
+                      <h2 class="nombre-albun">CAMARAS SEGURIDAD</h2>
+                    </div>
+                </div>
+              </a>
+            </li>        
+            <li>
+              <a href="http://s3.cetiia.co/" target="_blank">
+                <!-- <a href="./alejo/" target="_blank"> -->
+                <div class="container-albun portafolio-item">
+                    <!-- image_tag("nmn.jpg", :alt => "PORTADA ALBÚN", :class => 'image') %>-->
+                    <img src="estilos/img/fitnes.png" alt="img Mundo Fitness" class="portafolio-img" />
+                    <div class="info-albun">
+                        <h2 class="nombre-albun">MUNDO FITNESS</h2>
+                    </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
       
-    </div>
-      
-
-
-
-
-
       <div class="tituLo">
         <ul class="flex-outer">
           <li class="centrar-boto">
-            <a type="submit" class="btn btn-outline-info" href="portafolio.html">CONOCEME MÁS</a>
+            <a type="submit" class="boton" href="portafolio.html">Ver más</a>
           </li>
         </ul>
       </div>
-
 
     </section>
 
@@ -256,7 +258,7 @@
                   <textarea rows="6" name="mensaje" class="rect" placeholder="Ingresa Mensaje" required></textarea>
                 </li>
                 <li class="centrar-boto">
-                  <button type="submit">Enviar</button>
+                  <button type="submit" class="boton">Enviar</button>
                 </li>
               </ul>
             </form>

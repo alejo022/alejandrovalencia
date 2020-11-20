@@ -1,7 +1,5 @@
 
 /*CONTACTO*/
-
-
 .footer{
   display: flex;
   align-items: center;
@@ -29,8 +27,6 @@
   border: 0;
   background: #54a7c0;
 }
-
-
 
 .container{
   width: 90%;
@@ -92,7 +88,7 @@
   resize: none;
 }
 
-.flex-outer li button{
+.flex-outer li .boton{
   background: 0 0 #FEFFFF;
   border: 1px solid #6D85A8;
   border-radius: 3px;
@@ -105,9 +101,9 @@
   transition: all 0.25s ease 0s;
 }
 
-.flex-outer li button:hover,
-.flex-outer li button:active,
-.flex-outer li button:focus {
+.flex-outer li .boton:hover,
+.flex-outer li .boton:active,
+.flex-outer li .boton:focus {
     border-color: #299FFF;
     color: #299FFF;
 }
@@ -128,7 +124,6 @@
     border-color: #60A9F1;
   outline: none;
 }
-
 
 .center{
   width: 95%;
@@ -174,7 +169,6 @@
 input{
   font-family: 'Raleway', sans-serif;
 }
-
 
 .centrar-boto { width: 100%;
                 display: block !important;
